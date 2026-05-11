@@ -81,3 +81,10 @@ uvicorn app.main:app --reload
 ## Endpoints base
 
 - `GET /health`: valida que la API este levantada.
+
+## Endpoints disponibles
+
+- `GET /api/dashboard/resumen`
+- `GET /api/reportes/operacional/pdf`
+- `GET /api/reportes/gestion/pdf`
+- `GET /api/pagos/{id}/voucher/pdf`
