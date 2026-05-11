@@ -20,7 +20,7 @@ export default function ReportesPage() {
       <header className="page-header">
         <div className="page-copy">
           <p className="eyebrow">Salida documental</p>
-          <h2 className="section-title mt-3 text-4xl sm:text-5xl">Reportes listos para examen.</h2>
+          <h2 className="section-title mt-3 text-4xl sm:text-5xl">Zona de reportes</h2>
           <p className="mt-4 text-sm leading-7 text-stone-300/74 sm:text-base">
             Descarga reportes PDF operativos y de gestion directamente desde el frontend conectado al backend.
           </p>

@@ -83,6 +83,16 @@ textarea {
   color: var(--foreground);
   padding: 0.85rem 1rem;
   outline: none;
+  appearance: none;
+}
+
+.select option {
+  background: #17161b;
+  color: #f5efe6;
+}
+
+.select option:disabled {
+  color: #8f8578;
 }
 
 .field::placeholder,
